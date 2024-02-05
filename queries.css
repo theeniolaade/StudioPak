@@ -1,0 +1,90 @@
+/* ********************************* */
+/* BELOW 1344PX */
+/* ********************************* */
+
+@media (max-width: 84em) {
+  footer {
+    padding: 0 4.8rem;
+  }
+
+  h1 {
+    font-size: 6.4rem;
+    padding: 0 12rem;
+  }
+}
+
+/* ********************************* */
+/* BELOW 1200PX */
+/* ********************************* */
+
+@media (max-width: 75em) {
+  h1 {
+    font-size: 4.8rem;
+  }
+
+  .range p {
+    font-size: 1.2rem;
+  }
+
+  .work {
+    grid-template-columns: repeat(3, 300px);
+  }
+}
+
+/* ********************************* */
+/* BELOW 944PX */
+/* ********************************* */
+
+@media (max-width: 59em) {
+  .work {
+    grid-template-columns: repeat(3, 200px);
+  }
+}
+
+/**************************/
+/* BELOW 704px */
+/**************************/
+
+@media (max-width: 44em) {
+  nav {
+    font-size: 1.2rem;
+  }
+
+  h1 {
+    font-size: 3.2rem;
+    padding: 0 2.4rem;
+  }
+
+  .range p {
+    font-size: 1rem;
+  }
+
+  .work {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 2.4rem;
+    row-gap: 2rem;
+    column-gap: 2rem;
+  }
+
+  .contact h2,
+  .contact a:link {
+    font-size: 2.4rem;
+  }
+
+  .owner,
+  footer {
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+}
+
+/**************************/
+/* BELOW 544px */
+/**************************/
+
+@media (max-width: 34em) {
+
+    .author, .socials a:link {
+        font-size: 1.2rem;
+    }
+}

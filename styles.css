@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; 
+  /* 10px */
+}
+
+body {
+  max-width: 130rem;
+  font-family: "Inter", sans-serif;
+  color: #f5f5f5;
+  background-color: #121212;
+  max-width: 100%;
+}
+
+.header {
+  max-width: 30rem;
+  margin: 3rem auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(50px);
+  border-radius: 50px;
+  padding: 0.5rem;
+  margin-bottom: 10rem;
+}
+
+nav {
+  font-size: 1.4rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #f5f5f5;
+}
+
+nav a:first-child {
+  background-color: #fff;
+  padding: 1.2rem 2.4rem;
+  border-radius: 50px;
+  color: #121212;
+}
+
+nav a {
+  padding-right: 2.4rem;
+}
+
+.hero {
+  text-align: center;
+}
+
+h1 {
+  font-size: 6.4rem;
+  margin-bottom: 5rem;
+  line-height: 1.2;
+  padding: 0 12rem;
+}
+
+h1 span {
+  color: #5EF38C;
+}
+
+.range {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+  margin-bottom: 5rem;
+  padding: 0 2.4rem;
+}
+
+.range p {
+  font-size: 1.4rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  font-weight: 500;
+}
+
+.range p:first-child {
+  background-color: transparent;
+  padding-right: 0;
+  color: #f5f5f5;
+}
+
+
+.work {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  row-gap: 2.4rem;
+  column-gap: 3rem;
+  justify-content: center;
+  margin-bottom: 12rem;
+}
+
+.work-item img {
+  width: 100%;
+  border-radius: 10%;
+  transition: all 0.4s;
+}
+
+.contact {
+  text-align: center;
+  margin-bottom: 15rem;
+}
+
+.contact h2 {
+  font-size: 3.6rem;
+}
+
+.contact a:link,
+.contact a:visited {
+  text-decoration: none;
+  font-size: 3.6rem;
+  color: #5EF38C;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+
+.contact a:hover,
+.contact a:active {
+  color: rgb(94, 243, 140, 0.8);
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  padding: 0 6.4rem;
+}
+
+.owner {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.author {
+  font-size: 1.4rem;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+}
+
+.socials a:link,
+.socials a:visited {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #f5f5f5;
+  transition: all 0.3s;
+}
+
+.socials a:hover,
+.socials a:active {
+  color: #5EF38C;
+}
